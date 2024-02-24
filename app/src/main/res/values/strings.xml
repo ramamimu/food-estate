@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Food App</string>
+    <string name="food_name">Nama Makanan</string>
+    <string name="food_description">Deskripsi Makanan</string>
+    <string name="name_detail_food">Nama Makanan</string>
+    <string name="description_detail_food">Deskripsi Makanan</string>
+
+    <string-array name="title_foods">
+        <item name="lontong_balap_title">Lontong Balap</item>
+        <item name="lontong_kupang_title">Lontong Kupang</item>
+        <item name="mie_akherat_title">Mie Akhirat</item>
+        <item name="nasi_goreng_title">Nasi Goreng</item>
+        <item name="rujak_cingur_title">Rujak Cingur</item>
+        <item name="sate_karak_title">Sate Karak</item>
+        <item name="sate_klopo_title">Sate klopo</item>
+        <item name="sate_lisidu_title">Sate Lisidu</item>
+        <item name="sego_sambel_title">Sego Sambel</item>
+        <item name="tahu_tek_title">Tahu Tek</item>
+    </string-array>
+    <string-array name="description_foods">
+        <item name="lontong_balap_description">Lontong Balap adalah hidangan khas asal Jawa Timur yang menggabungkan lontong, tauge, kecambah, serta beragam bahan lainnya yang disajikan dengan kuah kacang yang kental, lengkap dengan tambahan kerupuk yang memberikan cita rasa khas.</item>
+        <item name="lontong_kupang_description">Lontong Kupang adalah hidangan yang terbuat dari lontong, kepiting kecil (kupang), disiram dengan bumbu kacang, dan kadang-kadang diberi tambahan sambal.</item>
+        <item name="mie_akherat_description">Mie Akhierat adalah mi khas dari Aceh yang disajikan dengan kuah kental dan biasanya diberi potongan daging atau seafood.</item>
+        <item name="nasi_goreng_description">Nasi Goreng adalah hidangan nasi yang digoreng dengan bumbu dan biasanya dicampur dengan telur, daging, seafood, dan sayuran.</item>
+        <item name="rujak_cingur_description">Rujak Cingur adalah hidangan khas Jawa Timur yang terdiri dari irisan buah segar, sayuran, serta potongan cingur (hidung sapi) yang disajikan dengan bumbu kacang.</item>
+        <item name="sate_karak_description">Sate Karak adalah sate khas dari Banjarmasin yang terbuat dari daging sapi atau kerbau yang dipanggang dan disajikan dengan bumbu kacang.</item>
+        <item name="sate_klopo_description">Sate Klopo adalah sate yang terbuat dari daging ayam atau daging sapi yang dipanggang, lalu dilumuri dengan parutan kelapa sebelum disajikan.</item>
+        <item name="sate_lisidu_description">Sate Lisidu adalah sate khas dari Sulawesi Utara yang terbuat dari daging babi atau daging sapi yang dipanggang dan disajikan dengan bumbu kacang.</item>
+        <item name="sego_sambel_description">Sego Sambel adalah hidangan nasi yang disajikan dengan sambal atau saus pedas sebagai pelengkap.</item>
+        <item name="tahu_tek_description">Tahu Tek adalah hidangan khas Surabaya yang terdiri dari tahu goreng yang disajikan dengan taoge, mentimun, dan kecambah yang disiram dengan bumbu kacang manis.</item>
+    </string-array>
+    <integer-array name="image_foods">
+        <item>@drawable/lontong_balap</item>
+        <item>@drawable/lontong_kupang</item>
+        <item>@drawable/mie_akherat</item>
+        <item>@drawable/nasi_goreng</item>
+        <item>@drawable/rujak_cingur</item>
+        <item>@drawable/sate_karak</item>
+        <item>@drawable/sate_klopo</item>
+        <item>@drawable/sate_lisidu</item>
+        <item>@drawable/sego_sambel</item>
+        <item>@drawable/tahu_tek</item>
+    </integer-array>
+</resources>
