@@ -4,6 +4,10 @@
     <string name="food_description">Deskripsi Makanan</string>
     <string name="name_detail_food">Nama Makanan</string>
     <string name="description_detail_food">Deskripsi Makanan</string>
+    <string name="name_profile">Ahmad Ferdiansyah Ramadhani</string>
+    <string name="email_profile">ahm.f.ramadhani@gmail.com</string>
+    <string name="main_menu">menu</string>
+    <string name="profile_item_menu">profil</string>
 
     <string-array name="title_foods">
         <item name="lontong_balap_title">Lontong Balap</item>

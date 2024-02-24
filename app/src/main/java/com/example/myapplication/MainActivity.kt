@@ -4,19 +4,21 @@ import android.annotation.SuppressLint
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.Menu
+import android.view.MenuItem
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 
 class MainActivity : AppCompatActivity(){
-    private lateinit var rvHeroes: RecyclerView
+    private lateinit var rvFoods: RecyclerView
     private val list = ArrayList<Food>()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        rvHeroes = findViewById(R.id.rv_food)
-        rvHeroes.setHasFixedSize(true)
+        rvFoods = findViewById(R.id.rv_food)
+        rvFoods.setHasFixedSize(true)
 
         list.addAll(getListHeroes())
         showRecyclerList()
@@ -36,9 +38,23 @@ class MainActivity : AppCompatActivity(){
     }
 
     private fun showRecyclerList(){
-        rvHeroes.layoutManager = LinearLayoutManager(this)
+        rvFoods.layoutManager = LinearLayoutManager(this)
         val listFoodAdapter = ListFoodAdapter(list)
-        rvHeroes.adapter = listFoodAdapter
+        rvFoods.adapter = listFoodAdapter
     }
 
+    override fun onCreateOptionsMenu(menu: Menu?):Boolean {
+        menuInflater.inflate(R.menu.menu_main, menu)
+        return super.onCreateOptionsMenu(menu)
+    }
+
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        when(item.itemId){
+            R.id.profile_list -> {
+                val moveIntent = Intent(this@MainActivity, ProfileActivity::class.java)
+                startActivity(moveIntent)
+            }
+        }
+        return super.onOptionsItemSelected(item)
+    }
 }
